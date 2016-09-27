@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Simple Paint App</title>
+        <link rel="stylesheet" type="text/css" href="paint.css">
+        
+	</head>
+	<body>
+		<div class="outer">
+		    <div class="heading"><h1>Simple Paint App</h1></div>
+		    <div class="canvasOut">
+		    	<canvas id="myCanvas" class="canvas" height="400px" width="800px" style="border:1px solid black;">
+		        </canvas>
+		    </div>
+		   <div class="canvasBottomOut">
+		   		<button class="btn"id="clear">Clear</button>
+			</div>
+		</div>
+		<div  class="using"style="width:100%; padding:10px 200px; color:white;background-color:black">
+		    <h2><b>Using (<u>chrome compatible browser</u>)</b></h2>
+		    <ol>
+		    	<li><h3><b>Module 1 :</b></h3>
+		    		<ul>
+				    	<li>(Left click down + Mousemove) :- draw rectangle.</li>
+				    	<li>(Clear button) :- clear/reset canvas.</li>
+		            </ul>
+		    	</li>
+		    	<li><h3><b>Module 2 :</b></h3>
+		    		<ul>
+				    	<li>(Left click down + Mousemove) :- drag rectangle for existing rectangle.</li>
+				    	<li>(double click) :- delete rectangle.</li>
+		            </ul>
+		    	</li>
+		    	<li><h3><b>Extra :</b></h3>
+		    		<ul>
+				    	<li>(Left click down + Mousemove) :- resize rectangle for existing rectangle.</li>
+				    	<li><b> Note:- Resize work from border to 5px inside rectangle.</b></li>
+		            </ul>
+		    	</li>
+		    	<li><h3><b>Automatically :</b></h3>
+		    		<ul>
+				    	<li>Change different color.</li>
+		            </ul>
+		    	</li>
+		    </ol>
+		</div>
+		<script type="text/javascript" src="paint.js"></script>
+	</body>
+</html>

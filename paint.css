@@ -1,0 +1,50 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+body{background-color: white}
+/*outer canvas*/
+.outer{
+     display:flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     height:auto;
+     width:100%;
+     padding:30px;
+     border:5px solid black;
+}
+.canvasBottomOut{
+	padding:10px 0px;
+	width:800px;
+	height:60px;
+	display:flex;
+	justify-content: flex-end;
+}
+.heading{
+	margin-bottom:10px;
+}
+.btn{
+	font-size: 20px;
+	padding:5px 20px;
+	box-shadow: 7px 7px 0px black;
+}
+.canvasBottomOut{
+	width:800px;
+	height:auto;
+	display:flex;
+     justify-content: flex-end;
+}
+.btn,.heading,.using{
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none;   /* Chrome/Safari/Opera */
+	-moz-user-select: none;      /* Firefox */
+	-ms-user-select: none;       /* Internet Explorer/Edge */
+	user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+.heading,.canvasOut{
+	width:100%;
+	display:flex;
+     justify-content: center;
+}
